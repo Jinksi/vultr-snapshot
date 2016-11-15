@@ -1,0 +1,17 @@
+{
+  "name": "vultr-snapshots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snapshotDelete.js",
+  "dependencies": {
+    "lodash": "^4.17.1",
+    "moment": "^2.16.0",
+    "vultr": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
