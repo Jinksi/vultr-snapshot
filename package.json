@@ -1,6 +1,6 @@
 {
   "name": "vultr-snapshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "snapshotDelete.js",
   "dependencies": {
@@ -19,8 +19,8 @@
   "bin": {
     "vultr-snapshot": "./snapshotDelete.js"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/Jinksi/vultr-snapshot.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jinksi/vultr-snapshot.git"
   }
 }
