@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const _filter = require('lodash/filter')
 const _each = require('lodash/each')
 const moment = require('moment')
