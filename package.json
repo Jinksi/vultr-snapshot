@@ -5,6 +5,7 @@
   "main": "snapshotDelete.js",
   "dependencies": {
     "lodash": "^4.17.1",
+    "minimist": "^1.2.0",
     "moment": "^2.16.0",
     "vultr": "^0.0.6"
   },
