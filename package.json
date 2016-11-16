@@ -1,5 +1,5 @@
 {
-  "name": "vultr-snapshots",
+  "name": "vultr-snapshot",
   "version": "1.0.0",
   "description": "",
   "main": "snapshotDelete.js",
@@ -11,8 +11,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node snapshotDelete.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Eric Jinks",
+  "license": "ISC",
+  "bin": {
+    "vultr-snapshot": "./snapshotDelete.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Jinksi/vultr-snapshot.git"
+  }
 }
